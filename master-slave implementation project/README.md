@@ -9,6 +9,10 @@ The slaves perform the requested task(each one will splitting his part) and send
 
 * ![Go](https://img.shields.io/badge/Go-Golang%20v1.20-blue?style=for-the-badge&logo=appveyor)
 
+https://user-images.githubusercontent.com/64088888/235845709-5b8f45d1-87ea-43e6-b29a-2494c802e6dd.mp4
+
+
+
 ## Getting started
 
 * 1 - Install Golang on your machine.
