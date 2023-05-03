@@ -1,6 +1,10 @@
 # Master-Slave implementation in Golang
 
-This is a simple implementation of a master-slave architecture in Golang. The architecture consists of a client, a master, and 4 slaves. The client sends a request to the master, which then handles the request and forwards it to the slave0 (who will collect and merge the file parts from other slaves). The slaves perform the requested task(each one will splitting his part) and send the result back to slave0, which then sends it back to the client. 
+This is a simple implementation of a master-slave architecture in Golang. <br>
+The architecture consists of a client, a master, and 4 slaves.<br>
+The client sends a request to the master, which then handles the request and forwards it to the slave0 (who will collect and merge the file parts from other slaves).<br>
+The slaves perform the requested task(each one will splitting his part) and send the result back to slave0, which then sends it back to the client. 
+
 ## Built With
 
 * ![Go](https://img.shields.io/badge/Go-Golang%20v1.20-blue?style=for-the-badge&logo=appveyor)
